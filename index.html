@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>DataVis - Assignment 3</title>
 
-    <div id="visualization-container"></div>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+    <div id="controls">
+        <button id="force-btn" class="viz-button active">Force Layout</button>
+        <button id="map-btn" class="viz-button">Map Layout</button>
+    </div>
 
-<!-- YOUR SOLUTION GOES HERE-->
+    <div id="visualization-container"></div>
 
-<!-- note: d3 version 7.9.0 this time! -->
-<script src="libs/d3.v7.min.js"></script>
-<script src="force.js"></script>
-<script src="main.js"></script>
+    <!-- note: d3 version 7.9.0 this time! -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="libs/d3.v7.min.js"></script>
+    <script src="force.js"></script>
+    <script src="main.js"></script>
 
 </body>
+
 </html>
